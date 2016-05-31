@@ -28,6 +28,6 @@ install docker-compose and run
     
     docker-compose up
 
-**browse to http://localhost:3000**
+**browse to http://{docker-ip}:3000**
 
 this will take make a request to dotcore api and return its payload
