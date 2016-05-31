@@ -24,7 +24,7 @@ cd into unsplash
 
 # Or with docker-compose
 
-install docker-compose
+install docker-compose and run
     
     docker-compose up
 
