@@ -22,10 +22,10 @@ cd into unsplash
 
     docker run -d -p 3000:3000 --link=unsplash-api:unsplash-api -v $(pwd):/app -w /app --name=koa koa
 
-# OR With docker-compose
+# Or with docker-compose
 
 install docker-compose
-run
+    
     docker-compose up
 
 **browse to http://localhost:3000**
