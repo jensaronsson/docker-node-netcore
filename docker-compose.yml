@@ -1,0 +1,15 @@
+version: '2'
+services:
+  unsplash-api: 
+    build: ./unsplash
+    ports:
+      - "5000:5000"
+  koa:
+    build: ./koa
+    command: npm install
+    ports:
+      - "3000:3000"
+    volumes:
+      - ./koa:/app
+    links:
+      - unsplash-api

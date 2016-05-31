@@ -12,7 +12,7 @@ RUN apt-get update
 # the source lists for your package manager in order to be 
 # able to download and install packages
 
-RUN apt-get install -y curl pcregrep
+RUN apt-get install -y curl pcregrep npm
 # We'll use the unix utility curl to download the node.js
 # binaries
 
