@@ -15,3 +15,11 @@ cd into unsplash
     run npm install
     docker build -t koa .
     docker run -d -p 3000:3000 --link=unsplash-api:unsplash-api -v $(pwd):/app -w /app --name=koa koa
+
+# With docker-compose
+
+install docker-compose
+run
+    docker-compose up
+
+visit localhost:3000
